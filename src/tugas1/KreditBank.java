@@ -52,7 +52,6 @@ class KreditBank extends AkunBank implements bisaTransaksi {
     @Override
     void tampilkanInfoAkun() {
         System.out.println("\n+------+ Info Akun Bank +------+");
-        
         System.out.println("Nama Pemilik  : " + namaPemilik);
         System.out.println("Nomor Rekening: " + nomorRekening);
         System.out.println("Jenis Akun    : " + jenisAkun);
