@@ -45,7 +45,7 @@ class KreditBank extends AkunBank implements bisaTransaksi {
     @Override
     public void transaksi() {
         System.out.println(namaPemilik + " menggunakan kartu kredit untuk pembayaran belanja.");
-        saldo -= 300000; // Simulasi penggunaan kredit
+        saldo -= 300000; // penggunaan kredit
     }
 
 

@@ -41,7 +41,7 @@ class RekeningBank extends AkunBank implements bisaTransaksi {
     @Override
     public void transaksi() {
         System.out.println(namaPemilik + " melakukan transaksi utama: Pembayaran Tagihan.");
-        saldo -= 100000; // Simulasi pembayaran tagihan
+        saldo -= 100000; // pembayaran tagihan
     }
 
     @Override

@@ -8,7 +8,7 @@ package tugas1;
  *
  * @author HP
  */
-// Kelas TabunganBank, turunan dari AkunBank
+// Kelas TabunganBank turunan dari AkunBank
 class TabunganBank extends AkunBank implements bisaTransaksi {
     float saldo;
     float bunga;
