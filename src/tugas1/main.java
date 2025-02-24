@@ -12,7 +12,7 @@ public class main {
     public static void main(String[] args) {
         RekeningBank rekening1 = new RekeningBank("Numa", "123230229", "Giro", 5000000);
         TabunganBank tabungan1 = new TabunganBank("Buwana", "12323998", "Tabungan", 10000000, 3.5f);
-        KreditBank kredit1 = new KreditBank("Driessen", "1232397110", "Kredit", 2000000, 5000000, 5.0f);
+        KreditBank kredit1 = new KreditBank("Driessen", "1232397110", "Kredit", 5000000, 2000000, 5.0f);
 
         rekening1.tampilkanInfoAkun();
         rekening1.setorTunai(500000);
